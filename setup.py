@@ -7,7 +7,6 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='python-barebone',
-    version='0.1.0',
     description='An example Python package',
     url='https://github.com/ielson/barebone-packages',
     author='ielson',
