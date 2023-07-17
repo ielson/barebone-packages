@@ -1,6 +1,7 @@
 # Barebone-packages
 This is my barebone python package.
-It just prints a string when called
+As it is a public template, all you have to do is do click in use this template and set the configs for your new project.
+
 
 It can be installed with `pip install .` or `pip install -e .`.
 

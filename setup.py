@@ -12,8 +12,8 @@ setup(
     author='ielson',
     author_email='danmascandrade@gmail.com',
     license='MIT License',
-    #packages=['pythonbare.module'],
     package_dir={'':'pythonbare'},
+    #packages=['module'],
     py_modules=['module'],
     install_requires=[],     # like a requirements.txt file,
     setup_requires=['pytest-runner'],  # we can add 'flake8' here to chekc the formatting of our code
