@@ -14,7 +14,7 @@
     py_modules=['new_module_name_without_.py'],
 ```
 
-> the new_folder_name shouldn't have any __-__ or it won't be imported.
+> the new_folder_name shouldn't have any dash or it won't be imported.
 
 
 ---
