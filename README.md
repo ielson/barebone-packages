@@ -23,6 +23,9 @@
 
 It can be installed with `pip install .` or `pip install -e .`.
 
+After installing, it can be imported using 
+`import new_folder_name.new_module_name`
+
 Tests can be done with `python3 setup.py test`
 And code formatting checking with `python3 setup.py flake8`
 
