@@ -3,12 +3,17 @@
 <p>As it is a public template, all you have to do is do click in use this template and set the configs for your new project.
 
 ## Settings 
-<p>After the pythonbare folder name and module.py name are changed, these settings need to be changed as well: `setup.py/(package_dir and py_modules).`
+<p>After the pythonbare folder name and module.py name are changed, these settings need to be changed as well: 
+
+`setup.py/(package_dir and py_modules).`
+
 <p>package_dir should reflect the new name of the folder and the python modules. Like in the example below.
+
 ```python
     package_dir={'':'new_folder_name'},
     py_modules=['new_module_name_without_.py'],
 ```
+
 > the new_folder_name shouldn't have any __-__ or it won't be imported.
 
 
